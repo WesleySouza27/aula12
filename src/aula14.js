@@ -211,6 +211,25 @@ app.post('/login', async (request, response) => {
   }
 })
 
+// app.delete('/trip/:id', (request,response) => {
+//     const {id} = request.params
+  
+//     const tripIndex = trips.findIndex(trip => trip.id === parseInt(id))
+  
+//     if (tripIndex === -1) {
+//       return response.status(404).json({
+//         message:'Viagem não encontrado'
+//       })
+//     }
+  
+//     const [deleteTrip] = trips.splice(tripIndex, 1 )
+  
+//     return response.status(200).json({
+//       message: 'Viagem excluida com sucesso.',
+//       trip: deleteTrip
+//     })
+//   })
+
 app.listen(3000, () => {
   console.log('Servidor rodando na porta 3000')
 })
