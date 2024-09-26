@@ -1,0 +1,23 @@
+{
+  "name": "aula12",
+  "version": "1.0.0",
+  "main": "somaNumeros.js",
+  "scripts": {
+    "start": "nodemon ./src/aula14",
+    "dev": "nodemon ./src/index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.5",
+    "sucrase": "^3.35.0"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "uuid": "^10.0.0"
+  }
+}
